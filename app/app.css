@@ -1,0 +1,73 @@
+@import '~nativescript-theme-core/css/core.light.css';
+@import 'platform.css';
+
+.fa {
+    font-family: "FontAwesome";
+}
+
+.action-bar-label {
+    color: white;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-left: 120;
+    padding-top: 5;
+}
+
+.action-bar {
+    background-color: #032436;
+}
+
+.page-content .page-placeholder {
+    color: #030b0f;
+    font-size: 20;
+    vertical-align: center;
+    horizontal-align: center;
+}
+.page-content .page-icon {
+    font-size: 72;
+    vertical-align: top;
+    horizontal-align: center;
+    color: #032436;
+    margin-top: 20%;
+}
+
+.page-content {
+    background-color: white;
+}
+
+.hr-light {
+    background-color: white;
+}
+
+.sidedrawer {
+    background-color: #032436;
+    padding-bottom: 10;
+}
+
+.sidedrawer-header-text {
+    color: white;
+    font-size: 30;
+    /* font-weight: bold; */
+    margin-top: 10;
+    text-align: center;
+}
+
+.sidedrawer-icon {
+    font-size: 18;
+    width: 40;
+    height: 30;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
+
+.sidedrawer-list-item {
+    color: white;
+    padding-left: 20;
+    font-size: 18;
+    height: 60;
+}
+
+.sidedrawer-item {
+    vertical-align: center;
+}

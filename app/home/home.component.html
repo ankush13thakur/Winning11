@@ -1,0 +1,20 @@
+<GridLayout rows="30, *">
+    <Menu></Menu>
+    <Label text="Ongoing contests" class="action-bar-label"></Label>
+</GridLayout>
+
+<StackLayout row="1" style="padding-top: 30">
+    <SegmentedBar [items]="items" (selectedIndexChange)="onSelectedIndexChange($event)"></SegmentedBar>
+    <GridLayout [visibility]="selectedIndex === 0 ? 'visible' : 'collapsed'">
+        <Cricket></Cricket>
+    </GridLayout>
+    <GridLayout [visibility]="selectedIndex === 1 ? 'visible' : 'collapsed'">
+        <Label text="Football matches here" class="m-15 h3 p-5 text-center"></Label>
+    </GridLayout>
+    <GridLayout [visibility]="selectedIndex === 2 ? 'visible' : 'collapsed'">
+        <Label text="Kabaddi matches here" class="m-15 h3 p-5 text-center"></Label>
+    </GridLayout>
+    <GridLayout [visibility]="selectedIndex === 3 ? 'visible' : 'collapsed'">
+        <Label text="Quizes here" class="m-15 h3 p-5 text-center"></Label>
+    </GridLayout>
+</StackLayout>

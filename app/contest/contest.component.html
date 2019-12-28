@@ -1,0 +1,37 @@
+<GridLayout rows="auto, *">
+    <Menu></Menu>
+    <Label class="action-bar-label" text="Contest details"></Label>
+</GridLayout>
+
+<StackLayout row="1" style="padding-top: 20">
+    <SegmentedBar [items]="items" (selectedIndexChange)="onSelectedIndexChange($event)"></SegmentedBar>
+    <GridLayout [visibility]="selectedIndex === 0 ? 'visible' : 'collapsed'">
+        <GridLayout>
+            <ScrollView backgroundColor="#e8e7e7">
+                <FlexboxLayout flexDirection="column" class="owe-list" backgroundColor="#e8e7e7">
+                    <StackLayout style="height: 15"></StackLayout>
+                    <StackLayout id="item1" orientation="vertical" class="owe-list-item" width="100%">
+                        <GridLayout columns="auto, *, auto" rows="auto" width="100%" height="auto" class="owe-main-info"
+                            verticalAlignment="top" (tap)="toggleLeaderBoard()">
+                            <Image row="0" col="0" src="~/Assets/australia.jpg" class="owe-category-icon"></Image>
+                            <StackLayout row="0" col="1" orientation="vertical" class="owe-info-container">
+                                <GridLayout columns="auto" rows="auto" width="100%">
+                                    <Label text="Contest Id: 41698" class="lender-name" class="contest-information"
+                                        row="0" col="0"></Label>
+                                </GridLayout>
+                            </StackLayout>
+                            <Image row="0" col="2" src="~/Assets/sri-lanka.jpg" class="owe-category-icon"></Image>
+                        </GridLayout>
+                        <Label class="divider" text=""></Label>
+                    </StackLayout>
+                </FlexboxLayout>
+            </ScrollView>
+            <StackLayout style="padding-top: 120" *ngIf="toShowLeaderBoard">
+                <Label text="Leader board here" class="m-15 h3 p-5 text-center"></Label>
+            </StackLayout>
+        </GridLayout>
+    </GridLayout>
+    <GridLayout [visibility]="selectedIndex === 1 ? 'visible' : 'collapsed'">
+        <Label text="My team here" class="m-15 h3 p-5 text-center"></Label>
+    </GridLayout>
+</StackLayout>

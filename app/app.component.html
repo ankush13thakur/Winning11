@@ -1,0 +1,59 @@
+<RadSideDrawer drawerTransition="PushTransition">
+
+    <GridLayout tkDrawerContent rows="auto, *" class="sidedrawer sidedrawer-left">
+        <StackLayout class="sidedrawer">
+            <Label class="sidedrawer-header-text var" text="Ankush Thakur"></Label>
+        </StackLayout>
+
+        <ScrollView row="1">
+            <StackLayout>
+                <StackLayout class="hr-light"></StackLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/home" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf015;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Home" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <StackLayout class="hr-light"></StackLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/profile" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf2c0;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="My Profile" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/mycontests" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf2c0;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="My Contests" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/points" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf1ce;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Points Calculations" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/referral" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf234;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Refer & Earn" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <StackLayout class="hr-light"></StackLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/offers" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf06b;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Offers" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    nsRouterLink="/settings" (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf0ad;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Settings" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+                <StackLayout class="hr-light"></StackLayout>
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                    (tap)="closeDrawer()" clearHistory="true">
+                    <Label row="0" col="0" text="&#xf08b;" class="fa sidedrawer-icon"></Label>
+                    <Label row="0" col="1" text="Logout" class="m-l-20 sidedrawer-item"></Label>
+                </GridLayout>
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+
+    <page-router-outlet tkMainContent class="page page-content"></page-router-outlet>
+</RadSideDrawer>

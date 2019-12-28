@@ -1,0 +1,19 @@
+<GridLayout rows="30, *">
+    <Menu></Menu>
+    <Label text="Offers zone" class="action-bar-label"></Label>
+</GridLayout>
+
+<StackLayout row="1" style="padding-top: 30">
+    <GridLayout tkExampleTitle tkToggleNavButton>
+        <RadListView [items]="items" marginRight="-2" backgroundColor="#e6e6e6">
+            <ListViewStaggeredLayout tkListViewLayout scrollDirection="Vertical"
+                spanCount="2"></ListViewStaggeredLayout>
+            <ng-template tkListItemTemplate let-item="item">
+                <StackLayout margin="15" borderRadius="10">
+                    <Image src="{{ item.imageSrc }}" width="200" height="120"
+                        stretch="aspectFill"></Image>
+                </StackLayout>
+            </ng-template>
+        </RadListView>
+    </GridLayout>
+</StackLayout>

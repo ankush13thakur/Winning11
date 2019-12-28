@@ -1,0 +1,42 @@
+<GridLayout rows="30, *">
+    <Menu></Menu>
+    <Label text="My active contests" class="action-bar-label"></Label>
+</GridLayout>
+
+<StackLayout row="1" style="padding-top: 30">
+    <GridLayout>
+        <ScrollView backgroundColor="#e8e7e7">
+            <FlexboxLayout flexDirection="column" class="owe-list" backgroundColor="#e8e7e7">
+                <StackLayout style="height: 15"></StackLayout>
+                <StackLayout id="item1" orientation="vertical" class="owe-list-item" width="100%">
+                    <GridLayout nsRouterLink="/contest" columns="auto, *, auto" rows="auto" width="100%" height="auto" class="owe-main-info"
+                        verticalAlignment="top">
+                        <Image row="0" col="0" src="~/Assets/real-madrid.jpg" class="owe-category-icon"></Image>
+                        <StackLayout row="0" col="1" orientation="vertical" class="owe-info-container">
+                            <GridLayout columns="auto" rows="auto" width="100%">
+                                <Label text="Contest Id: 61878" class="lender-name" class="contest-information" row="0"
+                                    col="0"></Label>
+                            </GridLayout>
+                        </StackLayout>
+                        <Image row="0" col="2" src="~/Assets/barcelona.jpg" class="owe-category-icon"></Image>
+                    </GridLayout>
+                    <Label class="divider" text=""></Label>
+                </StackLayout>
+                <StackLayout id="item2" orientation="vertical" class="owe-list-item" width="100%">
+                    <GridLayout nsRouterLink="/contest" columns="auto, *, auto" rows="auto" width="100%" height="auto" class="owe-main-info"
+                        verticalAlignment="top">
+                        <Image row="0" col="0" src="~/Assets/south-africa.jpg" class="owe-category-icon"></Image>
+                        <StackLayout row="0" col="1" orientation="vertical" class="owe-info-container">
+                            <GridLayout columns="auto" rows="auto" width="100%">
+                                <Label text="Contest Id: 31288" class="lender-name" class="contest-information" row="0"
+                                    col="0"></Label>
+                            </GridLayout>
+                        </StackLayout>
+                        <Image row="0" col="2" src="~/Assets/australia.jpg" class="owe-category-icon"></Image>
+                    </GridLayout>
+                    <Label class="divider" text=""></Label>
+                </StackLayout>
+            </FlexboxLayout>
+        </ScrollView>
+    </GridLayout>
+</StackLayout>

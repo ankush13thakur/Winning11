@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.blankng"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:44
+8        android:minSdkVersion="17"
+8-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+9        android:targetSdkVersion="28" />
+9-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:15:3-42
+10
+11    <supports-screens
+11-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+17-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+18-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+19-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:14:5-68
+20-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:kinvey_nativescript_sdk:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\da16be6efe98d83753567545b1eaea27\kinvey_nativescript_sdk\AndroidManifest.xml:9:5-79
+21-->[:kinvey_nativescript_sdk:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\da16be6efe98d83753567545b1eaea27\kinvey_nativescript_sdk\AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:9:5-77
+22-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:9:22-74
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:10:5-65
+23-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:10:22-62
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->[:nativescript_geolocation:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\22b511c446ff209180865521dd38294c\nativescript_geolocation\AndroidManifest.xml:9:5-79
+24-->[:nativescript_geolocation:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\22b511c446ff209180865521dd38294c\nativescript_geolocation\AndroidManifest.xml:9:22-76
+25
+26    <application
+26-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+27        android:name="com.tns.NativeScriptApplication"
+27-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+28        android:allowBackup="true"
+28-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.0.1] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\0ce66f28f15d428e7cb22ee7b459b6ef\core-1.0.1\AndroidManifest.xml:22:18-86
+30        android:debuggable="true"
+31        android:icon="@drawable/icon"
+31-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+32        android:label="@string/app_name"
+32-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+33        android:theme="@style/AppTheme" >
+33-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+34        <activity
+34-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+35            android:name="com.tns.NativeScriptActivity"
+35-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+36            android:configChanges="keyboardHidden|orientation|screenSize"
+36-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+37            android:label="@string/title_activity_kimera"
+37-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+38            android:theme="@style/LaunchScreenTheme" >
+38-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+39            <meta-data
+39-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+40                android:name="SET_THEME_ON_LAUNCH"
+40-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+41                android:resource="@style/AppTheme" />
+41-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+42
+43            <intent-filter>
+43-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+44                <action android:name="android.intent.action.MAIN" />
+44-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+44-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+46-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.tns.ErrorReportActivity" />
+49-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+49-->E:\Study\Projects\Xperiments-2019\Winning11\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+50
+51        <service
+51-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:17:9-21:19
+52            android:name="net.gotev.uploadservice.UploadService"
+52-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:18:13-65
+53            android:enabled="true"
+53-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:19:13-35
+54            android:exported="false" >
+54-->[net.gotev:uploadservice:3.4.2] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d6050412007ca35280795058c26a63c8\jetified-uploadservice-3.4.2\AndroidManifest.xml:20:13-37
+55        </service>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\970b4688f4ad2a0bea804a5b635978fc\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:9-172
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\970b4688f4ad2a0bea804a5b635978fc\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:19-85
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\970b4688f4ad2a0bea804a5b635978fc\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:146-170
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\970b4688f4ad2a0bea804a5b635978fc\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:86-145
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\c28d4b9488279805fe817e91d3b1aa5d\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:9-121
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\c28d4b9488279805fe817e91d3b1aa5d\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:20-65
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\c28d4b9488279805fe817e91d3b1aa5d\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:66-119
+65
+66        <service
+66-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:15:9-22:19
+67            android:name="com.alexbbb.uploadservice.UploadService"
+67-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:16:13-67
+68            android:enabled="true"
+68-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:17:13-35
+69            android:exported="false" >
+69-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:18:13-37
+70            <intent-filter>
+70-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:19:13-21:29
+71                <action android:name="org.nativescript.imagepicker.uploadservice.action.upload" />
+71-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:20:17-99
+71-->[:nativescript_background_http:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\a01fdb4e30b5004c9d974996e8f5c936\nativescript_background_http\AndroidManifest.xml:20:25-96
+72            </intent-filter>
+73        </service>
+74
+75        <provider
+75-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
+76            android:name="androidx.core.content.FileProvider"
+76-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
+77            android:authorities="org.nativescript.blankng.provider"
+77-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
+78            android:exported="false"
+78-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
+79            android:grantUriPermissions="true" >
+79-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
+80            <meta-data
+80-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
+82                android:resource="@xml/provider_paths" />
+82-->[:nativescript_camera:] C:\Users\ankushpooja\.gradle\caches\transforms-2\files-2.1\d5f2c2219f38a9160b0befe8aae8cf4e\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
+83        </provider>
+84    </application>
+85
+86</manifest>
